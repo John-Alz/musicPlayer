@@ -190,16 +190,16 @@ body {
 
 
 .btn-listen::before {
-    content: ""; /* Vacío porque usamos una imagen de fondo */
-    display: inline-block; /* Asegúrate de que el ícono se alinee correctamente */
-    width: 24px; /* Ajusta el tamaño según tus necesidades */
-    height: 24px; /* Ajusta el tamaño según tus necesidades */
+    content: ""; 
+    display: inline-block; 
+    width: 24px;
+    height: 24px;
     content: "";
     background-image: url("../assets/icons/playTWO.svg");
-    background-size: cover; /* Asegúrate de que el ícono cubra el área designada */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    margin-right: 8px; /* Ajusta el espacio entre el ícono y el texto */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin-right: 8px; 
+    vertical-align: middle; 
 }
 
 .btn-listen:hover {
@@ -208,16 +208,16 @@ body {
 }
 
 .btn-listen:hover::before{
-    content: ""; /* Vacío porque usamos una imagen de fondo */
-    display: inline-block; /* Asegúrate de que el ícono se alinee correctamente */
-    width: 24px; /* Ajusta el tamaño según tus necesidades */
-    height: 24px; /* Ajusta el tamaño según tus necesidades */
+    content: ""; 
+    display: inline-block; 
+    width: 24px; 
+    height: 24px; 
     content: "";
     background-image: url("../assets/icons/play.svg");
-    background-size: cover; /* Asegúrate de que el ícono cubra el área designada */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    margin-right: 8px; /* Ajusta el espacio entre el ícono y el texto */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin-right: 8px; 
+    vertical-align: middle; 
 }
 
 .btn-share {
@@ -578,7 +578,7 @@ footer {
     .section-container {
         width: 90%;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .front-container {
@@ -591,6 +591,16 @@ footer {
 
     .section-two-container h1 {
         font-size: 20px;
+    }
+
+    .btn-listen,
+    .btn-share {
+        font-size: 12px;
+    }
+
+    .btn-listen:hover::before{
+        width: 12px; 
+        height: 12px; 
     }
 
     .table-social-media li {
